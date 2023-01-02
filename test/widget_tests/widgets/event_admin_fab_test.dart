@@ -43,7 +43,6 @@ Event mockEvent = Event(
   organization: OrgInfo(id: 'XYZ'),
 );
 
-ExploreEventsViewModel mockExploreEventsViewModel = ExploreEventsViewModel();
 final mockModel = MockExploreEventsViewModel();
 
 Widget createWidget() {
