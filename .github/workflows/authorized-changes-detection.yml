@@ -21,6 +21,7 @@ on:
       - 'LICENSE'
       - 'android/app/main/AndroidManifest.xml'
       - 'gradle'
+      - 'lib/firebase_options.dart'
 
 jobs:
   Checking-for-unauthorized-file-changes:

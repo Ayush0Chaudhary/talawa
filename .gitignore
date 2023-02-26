@@ -13,7 +13,6 @@
 google-services.json
 GoogleService-Info.plist
 firebase_app_id_file.json
-/lib/firebase_options.dart
 
 # Sphinx documentation
 docs/_build/
