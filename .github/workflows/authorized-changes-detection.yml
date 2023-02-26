@@ -19,6 +19,8 @@ on:
       - 'lib/main.dart'
       - 'CODEOWNERS'
       - 'LICENSE'
+      - 'android/app/main/AndroidManifest.xml'
+      - 'gradle'
 
 jobs:
   Checking-for-unauthorized-file-changes:
