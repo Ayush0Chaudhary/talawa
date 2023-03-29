@@ -45,6 +45,7 @@ export const users: QueryResolvers["users"] = async (
     .populate("eventAdmin")
     .populate("adminFor")
     .populate("organizationsBlockedBy")
+    .populate("membershipRequests")
     .lean();
 
   if (!users[0]) {
